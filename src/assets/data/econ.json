@@ -1,0 +1,21 @@
+{
+    "GDP":440530056385,
+    "budgetPercentage":27,
+    "budgets":[
+        {
+            "sector":"Defence",
+            "allocation":17
+        },
+        {
+            "sector":"Other",
+            "allocation":83
+        }
+    ],
+    "exports":[
+        {
+            "HS4":7764,
+            "description":"Electronic integrated circuits",
+            "amount":6534175
+        }
+    ]
+}

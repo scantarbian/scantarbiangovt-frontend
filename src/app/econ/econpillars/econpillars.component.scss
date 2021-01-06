@@ -1,0 +1,43 @@
+img{
+    max-width:100%;
+    height: auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.flex-justify-center{
+    justify-content: center;
+}
+
+#flexContainer{
+    display: flex;
+}
+
+#sectorCard{
+    flex-grow: 1;
+    max-width: fit-content;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#sectorCard span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#sectorCard img{
+    filter:brightness(50%)
+}
+
+#sectorCard:hover{
+    filter: brightness(200%);
+    color: transparent;
+    cursor: pointer;
+}

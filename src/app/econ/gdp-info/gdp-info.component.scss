@@ -1,0 +1,25 @@
+#flexContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card{
+    flex-grow: 1;
+    max-width: fit-content;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 2%;
+}
+
+h2{
+    font-weight: lighter;
+    margin: 0;
+    text-decoration: underline;
+}
+
+h5{
+    font-weight: lighter;
+    margin: 0;
+}
