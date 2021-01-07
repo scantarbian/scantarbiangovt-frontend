@@ -3,15 +3,25 @@
 }
 
 #gridContainer{
+    background-color: rgba(0,0,0,0.7);
     display: grid;
-    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, auto);
+    margin: 3% 0;
+    padding: 2% 10%;
 }
 
-#gridColumn{
-    padding: 0 3%;
-    width: 100%
+#gridItem{
+    border-top: 1px solid gray;
+    padding: 3% 0;
 }
 
-// #columnItem{
-    
-// }
+#gridItem a{
+    font-weight: bold;
+    font-size:larger;   
+}
+
+#gridItem a:hover{
+    color: rgb(139, 139, 139)
+}

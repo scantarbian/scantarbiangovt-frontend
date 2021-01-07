@@ -2,13 +2,19 @@
     color: white;
 }
 
+#welcome{
+    display: flex;
+    margin: 0 10%;
+}
+
 #welcomeText{
     font-weight: bolder;
     font-size: 125%;
 }
 
 #welcomeText p{
-    margin-top: 1%
+    margin-top: 1%;
+    margin-bottom: 0;
 }
 
 .light{
