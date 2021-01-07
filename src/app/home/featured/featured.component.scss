@@ -18,12 +18,16 @@
     grid-template-rows: repeat(3, auto);
 }
 
-#item p{
-    text-align: justify;
+#item{
+    text-decoration: none;
 }
 
-#item a{
-    text-align: center;
+#item:hover{
+    cursor: pointer;
+}
+
+#item p{
+    text-align: justify;
 }
 
 #item h4{

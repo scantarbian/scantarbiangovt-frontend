@@ -20,29 +20,24 @@ img {
     height: auto;
 }
 
-ul{
-    list-style-type: none;
+#nav{
     margin: 0;
-    height: inherit;
-    padding: 1% .5%;
+    padding: 0 .5%;
     display: flex;
-    background-color: black;
+    color: white;
     justify-content: right;
 }
 
-li{
+
+#nav a {
     font-size: 16px;
-    color: white;
     padding: 1% 4%;
     margin: 0;
-}
-
-a {
     color: inherit;
     text-decoration: inherit;
 }
 
-li:hover{
+#nav a:hover{
     font-weight: bold;
     background-color: white;
     color: black;
