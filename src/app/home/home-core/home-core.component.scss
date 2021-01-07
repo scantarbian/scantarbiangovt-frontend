@@ -1,9 +1,15 @@
-#core {
+#parallax {
     display:flex;
+    background-image: url("../../../assets/img/home/welcomeSplash.jpg");
+    height: 100%; 
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#parallax{
-    position: absolute;
+#content{
+    margin-bottom: 5%
 }
 
 img {
