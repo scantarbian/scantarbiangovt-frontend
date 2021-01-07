@@ -5,6 +5,29 @@
     border-radius: 25px;
 }
 
+#carousel{
+    display: flex;
+    margin-top: 2%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 25px;
+}
+
+#card{
+    width: 20%;
+    margin: 2%;
+    padding: 2%;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 25px;
+}
+
+#card:not(:last-child) {
+    margin-right: 0;
+}
+
+#card p{
+    margin: 0;
+}
+
 .no-margin{
     margin: 0;
 }

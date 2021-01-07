@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeCoreComponent } from './home-core/home-core.component'
 import { WelcomeComponent } from './welcome/welcome.component';
-import { ThingsToDoComponent } from './things-to-do/things-to-do.component'
+import { ThingsToDoComponent } from './things-to-do/things-to-do.component';
+import { QuickLinksComponent } from './quick-links/quick-links.component'
 
 
 @NgModule({
-  declarations: [HomeCoreComponent, WelcomeComponent, ThingsToDoComponent ],
+  declarations: [HomeCoreComponent, WelcomeComponent, ThingsToDoComponent, QuickLinksComponent ],
   imports: [
     CommonModule,
     HomeRoutingModule

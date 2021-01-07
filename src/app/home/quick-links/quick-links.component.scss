@@ -1,0 +1,17 @@
+* {
+    color: white;
+}
+
+#gridContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#gridColumn{
+    padding: 0 3%;
+    width: 100%
+}
+
+// #columnItem{
+    
+// }
