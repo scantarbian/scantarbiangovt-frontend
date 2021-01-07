@@ -1,0 +1,31 @@
+* {
+    color: white;
+}
+
+#container{
+    margin: 3% 0;
+    padding: 0 10%;
+}
+
+#container h1{
+    margin: 0;
+}
+
+#gridContainer{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, auto);
+}
+
+#item p{
+    text-align: justify;
+}
+
+#item a{
+    text-align: center;
+}
+
+#item h4{
+    margin-bottom: 0;
+}
