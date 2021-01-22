@@ -1,0 +1,10 @@
+schema:
+  - https://db.scantarbian.live/graphql/
+documents:
+  - src/**/*.graphql
+generates:
+  ./src/app/services/govtbackend.service.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-apollo-angular
